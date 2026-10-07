@@ -1,0 +1,30 @@
+# Local configuration and IDE files
+local.properties
+.idea/
+*.iml
+.vscode/
+
+# Build and dependency caches
+.gradle/
+.kotlin/
+**/build/
+.toolchain/
+captures/
+test-results/
+dist/
+*.apk
+*.aab
+
+# Signing material and local credentials
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+.env
+.env.*
+!*.example
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
